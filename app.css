@@ -1,0 +1,62 @@
+h1{
+    text-align:center;
+    color:white;
+}
+
+body{
+    background-color: rgb(126, 115, 115);
+    
+}
+
+
+
+form{
+    display:flex; 
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+  
+}
+
+
+
+
+  section{
+    display: grid;
+    grid-template-columns: repeat(5,8rem);
+    grid-template-rows: repeat(3,8rem);
+    grid-gap:10rem;
+    position: relative;
+    perspective:800px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:100px;
+   
+    
+}
+
+.positioning{
+    display:flex;
+    justify-content:center;
+}
+  
+
+.gifsubmit{
+    background-color:darkslategrey;
+    color:white;
+}
+
+.remove{
+    background-color:orangered;
+    color:white;
+}
+
+
+
+img{
+    width:200px;
+    height:200px;     
+    top:70px;     
+    
+}
+
